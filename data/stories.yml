@@ -1,0 +1,186 @@
+version: "2.0"
+
+stories:
+
+- story: order girls dress
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order girls dress1
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order girls dress2
+  steps:
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys dress
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys dress1
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys dress2
+  steps:
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids dress
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids dress1
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids dress2
+  steps:
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order All dress
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: view_item_list
+  - action: utter_view_item_list
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order All dress1
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: view_item_list
+  - action: utter_view_item_list
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order All dress2
+  steps:
+  - intent: view_item_list
+  - action: utter_view_item_list
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: cancel dress
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cancel the order
+  - action: utter_cancel_return
+  - intent: order_number
+  - action : action_order_number
+  - action: utter_order_cancel
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: cancel dress1
+  steps:
+  - intent: cancel the order
+  - action: utter_cancel_return
+  - intent: order_number
+  - action : action_order_number
+  - action: utter_order_cancel
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: return the order
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cancel the order
+  - action: utter_cancel_return
+  - intent: order_number
+  - action : action_order_number
+  - action: utter_order_return
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: return the order
+  steps:
+  - intent: cancel the order
+  - action: utter_cancel_return
+  - intent: order_number
+  - action : action_order_number
+  - action: utter_order_return
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: greet and bye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: refund
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: refund for the order
+  - action: utter_cancel_return
+  - intent: order_number
+  - action : action_order_number
+  - action: action_refund
+
+- story: refund1
+  steps:
+  - intent: refund for the order
+  - action: utter_cancel_return
+  - intent: order_number
+  - action : action_order_number
+  - action: action_refund
+
+- story: default fallback
+  steps:
+  - intent: greet
+  - action: action_default
+  
