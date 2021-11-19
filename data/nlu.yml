@@ -1,6 +1,66 @@
 version: "2.0"
 
 nlu:
+  - intent: saree_col
+    examples: |
+      - புடவை
+  - intent: girls_tshirt_col
+    examples: |
+      - girls ரீசேட்
+  - intent: jeans_col
+    examples: |
+      - ஜீன்ஸ்
+  - intent: skirts_col
+    examples: |
+      - ஸ்கேட்
+  - intent: tops_col
+    examples: |
+      - ரொப்
+  - intent: salwar_col
+    examples: |
+      - சல்வார்
+  - intent: nighty_col
+    examples: |
+      - நைட்டி
+  - intent: shirts_col
+    examples: |
+      - சேட்
+  - intent: tshirt_col
+    examples: |
+      - ரீசேட்
+  - intent: touser_col
+    examples: |
+      - ரௌஸர்
+  - intent: kuruta_col
+    examples: |
+      - குறுத்தா
+  - intent: sports_wear_col
+    examples: |
+      - விளையாட்டு ஆடைகள்
+  - intent: shorts_col
+    examples: |
+      - காற்சட்டை
+  - intent: kids_shirt_col
+    examples: |
+      - Kids சேட்
+  - intent: kids_frock_col
+    examples: |
+      - Kids frock
+  - intent: kids_shorts_col
+    examples: |
+      - Kids காற்சட்டை
+  - intent: kids_jeans_col
+    examples: |
+      - Kids ஜீன்ஸ்
+  - intent: babyset_col
+    examples: |
+      - குழந்தை ஆடைகள்
+  - intent: kids_tshirt_col
+    examples: |
+      - Kids ரீசேட்
+  - intent: kids_blouse_col
+    examples: |
+      - kids சட்டைகள்
 
   - intent: cancel the order
     examples: |

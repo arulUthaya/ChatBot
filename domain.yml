@@ -12,35 +12,136 @@ intents:
   - return the order
   - order_number
   - refund for the order
+  - saree_col
+  - girls_tshirt_col
+  - jeans_col
+  - skirts_col
+  - tops_col
+  - salwar_col
+  - nighty_col
+  - shirts_col
+  - tshirt_col
+  - touser_col
+  - kuruta_col
+  - sports_wear_col
+  - shorts_col
+  - kids_shirt_col
+  - kids_frock_col
+  - kids_shorts_col
+  - kids_jeans_col
+  - babyset_col
+  - kids_tshirt_col
+  - kids_blouse_col
+
 responses:
 
   utter_view_item_list:
-  - text: "உங்களுக்காக எல்லா ஆடைகளும் காட்சிப்படுத்த படுகின்றன"
-    image: "https://www.fashionbug.lk/?v=c8ec0d48aa7f"
+  - text: "உங்களுக்காக எல்லா ஆடைகளும் காட்சிப்படுத்த படுகின்றன https://www.fashionbug.lk/?v=c8ec0d48aa7f "
+    
   utter_buy_things:
   - text: "உங்கள் விருப்பத்தேர்வு எது?"
     buttons:
       - title: "ஆண்கள் ஆடை"
-        payload: "/Girls_collection"
-      - title: "பெண்கள் ஆடை"
         payload: "/Boys_collection"
+      - title: "பெண்கள் ஆடை"
+        payload: "/Girls_collection"
       - title: "சிறுவர்கள் ஆடை"
         payload: "/Kids_collection"
       - title: "எல்லா வகைகளும்"
         payload: "/view_item_list"
+  utter_saree_col:
+  - text: "எங்களிடம் இருக்கின்ற புடவைகள் https://www.fashionbug.lk/?s=sarees&post_type=product&dgwt_wcas=1&v=c8ec0d48aa7f"
+  utter_girls_tshirt_col:
+  - text: "எங்களிடம் இருக்கின்ற girls ரீசேட் https://www.fashionbug.lk/product-category/women/all-clothing_women/crop-tops-t-shirts/?v=c8ec0d48aa7f"
+  utter_jeans_col:
+  - text: "எங்களிடம் இருக்கின்ற ஜீன்ஸ் https://www.fashionbug.lk/product-category/women/all-clothing_women/jeans_women/?v=c8ec0d48aa7f"
+  utter_skirts_col:
+  - text: "எங்களிடம் இருக்கின்ற ஸ்கேட்ஸ் https://www.fashionbug.lk/product-category/women/all-clothing_women/skirt/?v=c8ec0d48aa7f"
+  utter_tops_col:
+  - text: "எங்களிடம் இருக்கின்ற ரொப்கள் https://www.fashionbug.lk/product-category/women/all-clothing_women/long-tops/?v=c8ec0d48aa7f"
+  utter_salwar_col:
+  - text: "எங்களிடம் இருக்கின்ற சல்வார்கள் https://www.fashionbug.lk/product-category/women/ethnic-wear-women/shalwar-material_ethnic/?v=c8ec0d48aa7f"
+  utter_nighty_col:
+  - text: "எங்களிடம் இருக்கின்ற நைட்டிகள் https://www.fashionbug.lk/?s=nighty&post_type=product&dgwt_wcas=1&v=c8ec0d48aa7f"
+  utter_shirts_col:
+  - text: "எங்களிடம் இருக்கின்ற சேட்கள் https://www.fashionbug.lk/product-category/men/all-clothing_men/formal-shirt_men/?v=c8ec0d48aa7f"
+  utter_tshirt_col:
+  - text: "எங்களிடம் இருக்கின்ற ரீசேட்ஸ் https://www.fashionbug.lk/product-category/men/all-clothing_men/t-shirts-polos_men/?v=c8ec0d48aa7f"
+  utter_touser_col:
+  - text: "எங்களிடம் இருக்கின்ற ரொஸர்கள் https://www.fashionbug.lk/product-category/men/all-clothing_men/jeans-joggers_men/?v=c8ec0d48aa7f \n https://www.fashionbug.lk/product-category/men/all-clothing_men/formal-trousers/?v=c8ec0d48aa7f"
+  utter_kuruta_col:
+  - text: "எங்களிடம் இருக்கின்ற குறுத்தாக்கள் https://www.fashionbug.lk/product-category/men/all-ethnicwear_men/kurtha_men/?v=c8ec0d48aa7f"
+  utter_sports_wear_col:
+  - text: "எங்களிடம் இருக்கின்ற விளையாட்டு ஆடைகள் https://www.fashionbug.lk/product-category/sportswear/mens_sport/?v=c8ec0d48aa7f"
+  utter_shorts_col:
+  - text: "எங்களிடம் இருக்கின்ற காற்சட்டைகள் https://www.fashionbug.lk/product-category/men/all-clothing_men/short_men/?v=c8ec0d48aa7f"
+  utter_kids_shirt_col:
+  - text: "எங்களிடம் இருக்கின்ற kids சேட் https://www.fashionbug.lk/product-category/kids-baby/boys/shirt-boys/?v=c8ec0d48aa7f"
+  utter_kids_frock_col:
+  - text: "எங்களிடம் இருக்கின்ற kids frock https://www.fashionbug.lk/product-category/kids-baby/girls/frock/?v=c8ec0d48aa7f"
+  utter_kids_shorts_col:
+  - text: "எங்களிடம் இருக்கின்ற kids காற்சட்டைகள் https://www.fashionbug.lk/product-category/kids-baby/boys/short-boys/?v=c8ec0d48aa7f"
+  utter_kids_jeans_col:
+  - text: "எங்களிடம் இருக்கின்ற kids ஜீன்ஸ் https://www.fashionbug.lk/product-category/kids-baby/boys/pant-boys/?v=c8ec0d48aa7f \n https://www.fashionbug.lk/product-category/kids-baby/girls/pants-leggings-girls/?v=c8ec0d48aa7f"
+  utter_babyset_col:
+  - text: "எங்களிடம் இருக்கின்ற குழந்தை ஆடைகள் https://www.fashionbug.lk/product-category/kids-baby/baby-collection/?v=c8ec0d48aa7f"
+  utter_kids_tshirt_col:
+  - text: "எங்களிடம் இருக்கின்ற kids ரீசேட்கள் https://www.fashionbug.lk/product-category/kids-baby/boys/t-shirt-boys/?v=c8ec0d48aa7f \n https://www.fashionbug.lk/product-category/kids-baby/girls/t-shirt-girls/?v=c8ec0d48aa7f "
+  utter_kids_blouse_col:
+  - text: "எங்களிடம் இருக்கின்ற kids சட்டைகள் https://www.fashionbug.lk/product-category/kids-baby/girls/girls-blouse/?v=c8ec0d48aa7f"
 
   utter_girls_collection:
-  - text: "எங்களிடம் இருக்கின்ற பெண்களுக்கான ஆடைகளை நான் பகிர்கின்றேன்,  நீங்கள் உங்களுக்கு தேவையானவற்றை எடுத்து கொள்ளலாம்."
-    image: "https://www.fashionbug.lk/product-category/women/all-clothing_women/?v=c8ec0d48aa7f"
-
+  - text: "எங்களிடம் இருக்கின்ற பெண்களுக்கான ஆடைகளை நான் பகிர்கின்றேன்,  நீங்கள் உங்களுக்கு தேவையானவற்றை எடுத்து கொள்ளலாம். https://www.fashionbug.lk/product-category/women/all-clothing_women/?v=c8ec0d48aa7f"
+    buttons: 
+      - title: "புடவை"
+        payload: "/saree_col"
+      - title: "girls ரீசேட்"
+        payload: "/girls_tshirt_col"
+      - title: "ஜீன்ஸ்"
+        payload: "/jeans_col"
+      - title: "ஸ்கேட்"
+        payload: "/skirts_col"
+      - title: "ரொப்"
+        payload: "/tops_col"
+      - title: "சல்வார்"
+        payload: "/salwar_col"
+      - title: "நைட்டி"
+        payload: "/nighty_col"
+      
   utter_boys_collection:
-  - text: "எங்களிடம் இருக்கின்ற ஆண்களுக்கான ஆடைகளை நான் பகிர்கின்றேன்,  நீங்கள் உங்களுக்கு தேவையானவற்றை எடுத்து கொள்ளலாம்."
-    image: "https://www.fashionbug.lk/product-category/men/all-clothing_men/?v=c8ec0d48aa7f"
-    
+  - text: "எங்களிடம் இருக்கின்ற ஆண்களுக்கான ஆடைகளை நான் பகிர்கின்றேன்,  நீங்கள் உங்களுக்கு தேவையானவற்றை எடுத்து கொள்ளலாம்.https://www.fashionbug.lk/product-category/men/all-clothing_men/?v=c8ec0d48aa7f"
+
+    buttons: 
+      - title: "சேட்"
+        payload: "/shirts_col"
+      - title: "ரீசேட்"
+        payload: "/tshirt_col"
+      - title: "ரௌஸர்"
+        payload: "/touser_col"
+      - title: "குறுத்தா"
+        payload: "/kuruta_col"
+      - title: "விளையாட்டு ஆடைகள்"
+        payload: "/sports_wear_col"
+      - title: "காற்சட்டை"
+        payload: "/shorts_col"
   utter_kids_collection:
-  - text: "எங்களிடம் இருக்கின்ற சிறுவர்களுக்கான ஆடைகளை நான் பகிர்கின்றேன்,  நீங்கள் உங்களுக்கு தேவையானவற்றை எடுத்து கொள்ளலாம்."
-    image: "https://www.fashionbug.lk/product-category/kids-baby/?v=c8ec0d48aa7f"
-  
+  - text: "எங்களிடம் இருக்கின்ற சிறுவர்களுக்கான ஆடைகளை நான் பகிர்கின்றேன்,  நீங்கள் உங்களுக்கு தேவையானவற்றை எடுத்து கொள்ளலாம்.https://www.fashionbug.lk/product-category/kids-baby/?v=c8ec0d48aa7f"
+    
+    buttons: 
+      - title: "Kids சேட்"
+        payload: "/kids_shirt_col"
+      - title: "Kids frock"
+        payload: "/kids_frock_col"
+      - title: "Kids காற்சட்டை"
+        payload: "/kids_shorts_col"
+      - title: "Kids ஜீன்ஸ்"
+        payload: "/kids_jeans_col"
+      - title: "குழந்தை ஆடைகள்"
+        payload: "/babyset_col"
+      - title: "Kids ரீசேட்"
+        payload: "/kids_tshirt_col"
+      - title: "kids சட்டைகள்"
+        payload: "/kids_blouse_col"
   utter_greet:
   - text: "வணக்கம்!. எப்படி நான் உங்களுக்கு உதவி செய்ய வேண்டும் ?"
     buttons: 
@@ -71,13 +172,13 @@ actions:
   - action_order_number
   - action_refund
   - action_default
-
 entities:
   - orderno
 
 slots:
   orderno:
     type: text
+
   
 session_config:
   session_expiration_time: 60

@@ -179,6 +179,252 @@ stories:
   - action : action_order_number
   - action: action_refund
 
+- story: order saree
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: saree_col
+  - action: utter_saree_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order girls tshirt
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: girls_tshirt_col
+  - action: utter_girls_tshirt_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order girls jeans
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: jeans_col
+  - action: utter_jeans_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order girls skirts
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: skirts_col
+  - action: utter_skirts_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order girls tops
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: tops_col
+  - action: utter_tops_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order girls salwars
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: salwar_col
+  - action: utter_salwar_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order girls nighties
+  steps:
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Girls_collection
+  - action: utter_girls_collection
+  - intent: nighty_col
+  - action: utter_nighty_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys shirts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: shirts_col
+  - action: utter_shirts_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys tshirts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: tshirt_col
+  - action: utter_tshirt_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys jeans
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: touser_col
+  - action: utter_touser_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys kuruta
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: kuruta_col
+  - action: utter_kuruta_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys sports wear
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: sports_wear_col
+  - action: utter_sports_wear_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order boys shorts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Boys_collection
+  - action: utter_boys_collection
+  - intent: shorts_col
+  - action: utter_shorts_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids shirts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: shorts_col
+  - action: utter_shorts_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids frock
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: kids_frock_col
+  - action: utter_kids_frock_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids shorts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: kids_shorts_col
+  - action: utter_kids_shorts_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids jeans
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: kids_jeans_col
+  - action: utter_kids_jeans_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order babysets
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: babyset_col
+  - action: utter_babyset_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids tshirts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: kids_tshirt_col
+  - action: utter_kids_tshirt_col
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order kids blouses
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Buy_things
+  - action: utter_buy_things
+  - intent: Kids_collection
+  - action: utter_kids_collection
+  - intent: kids_blouse_col
+  - action: utter_kids_blouse_col
+  - intent: goodbye
+  - action: utter_goodbye
+
 - story: default fallback
   steps:
   - intent: greet

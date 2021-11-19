@@ -50,5 +50,7 @@ policies:
     max_history: 5
     epochs: 200
     constrain_similarities: true
+    batch_size: 50
+    max_training_samples: 300
   - name: RulePolicy
   
