@@ -10,9 +10,9 @@ I have implemented as The bot can be used to
 
 Rasa Policies I used, 
 1.	TEDPolicy 
-    Max history: 5, epochs:200, constrain similarities: true, batch_size:50, max training samples: 300
+    -Max history: 5, epochs:200, constrain similarities: true, batch_size:50, max training samples: 300
 2.	MemoizationPolicy
-    Max history: 7
+    -Max history: 7
 3.	RulePolicy
 
 
